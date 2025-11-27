@@ -1,0 +1,74 @@
+# ---------------------------------------
+# Python
+# ---------------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.so
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+*.env
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.installed.cfg
+
+# ---------------------------------------
+# Django
+# ---------------------------------------
+*.log
+*.pot
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+
+# Migrations (OPTIONAL: remove if you want migrations)
+**/migrations/*
+!**/migrations/__init__.py
+
+# Media & Static (generated files)
+media/
+static/
+staticfiles/
+
+# Django secret key / environment variables
+*.env
+.env
+config.json
+
+# ---------------------------------------
+# IDE / Editor
+# ---------------------------------------
+.vscode/
+.idea/
+*.swp
+
+# ---------------------------------------
+# OS Files
+# ---------------------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------------------------
+# Testing
+# ---------------------------------------
+htmlcov/
+.coverage
+.tox/
+.pytest_cache/
+pytestdebug.log
+
+# ---------------------------------------
+# Others
+# ---------------------------------------
+*.sqlite3
+
